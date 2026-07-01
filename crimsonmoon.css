@@ -1,60 +1,27 @@
-/* Crimson Moon Tails - First Wolvden Theme Test */
-
-
-/* Page background */
 body {
-    background-color: #101718;
+    background-color: #101718 !important;
+    color: #e8ece8 !important;
 }
 
 
-/* Main text */
-body, p {
-    color: #d8ddd8;
+/* Cave card area */
+#denCards {
+    background-color: #111415 !important;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 
-/* Links */
-a {
-    color: #b52a3a;
-}
-
-a:hover {
-    color: #d8ddd8;
-}
-
-
-/* Tables - Wolvden uses many tables for layouts */
-table {
-    background-color: #183638;
-    border-color: #8c1c2c;
+/* Individual cave cards inside the area */
+#denCards .top {
+    background-color: #183638 !important;
+    border: 2px solid #8c1c2c !important;
+    border-radius: 12px;
+    color: #e8ece8 !important;
 }
 
 
-/* Table cells */
-td {
-    border-color: #24484a;
-}
-
-
-/* Headers */
-h1, h2, h3 {
-    color: #d8ddd8;
-    text-shadow: 0 0 8px #8c1c2c;
-}
-
-
-/* Buttons */
-button,
-input[type="submit"] {
-    background-color: #183638;
-    color: #e8ece8;
-    border: 2px solid #8c1c2c;
-    border-radius: 8px;
-}
-
-
-/* Buttons hover */
-button:hover,
-input[type="submit"]:hover {
-    background-color: #24382f;
+/* Cave names */
+#denCards .floatright {
+    color: #d8ddd8 !important;
 }
