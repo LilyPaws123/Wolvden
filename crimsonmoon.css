@@ -1,13 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
+
+/* =========================
+   CRIMSON MOON TAILS THEME
+   ========================= */
+
+
+/* Background */
 body {
-    background: #220000 !important;
+  background:
+  linear-gradient(rgba(8,20,22,.55), rgba(8,20,22,.85)),
+  url(https://images.unsplash.com/photo-1511497584788-876760111969);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-body::before {
-    content: "CRIMSON MOON TEST";
-    display: block;
-    background: #8c1c2c;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    font-size: 30px;
+
+/* Main font + text */
+* {
+  font-family: "Galdeano", sans-serif;
+  color: #d8dddd;
+}
+
+
+/* Links */
+a {
+  color: #c84b55;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #e8a0a5;
+}
+
+
+/* Header */
+#header .navbar-main {
+  background: transparent;
+}
+
+#header .navbar-main .nav-link {
+  color: #d8dddd !important;
+  font-size: 22px;
+}
+
+
+/* Breadcrumb */
+#header .breadcrumb-nav {
+  background: rgba(12,40,42,.75) !important;
+}
+
+
+/* Main panels */
+#main,
+#sidebar {
+
+  background:
+  rgba(10,25,27,.75) !important;
+
+  border-radius: 12px;
+}
+
+
+/* Tables = caves */
+.table {
+
+  background:
+  rgba(18,45,47,.85);
+
+  border-radius: 12px;
+  border: 2px solid #8f2635;
+}
+
+
+/* Cave headers */
+.table th {
+
+  background:
+  linear-gradient(
+    to bottom,
+    #8f2635,
+    #541722
+  ) !important;
+
+  color:white !important;
+
+  border-radius:10px;
+}
+
+
+/* Cave text */
+.table td {
+
+  background:
+  rgba(10,25,27,.7);
+
+}
+
+
+/* Cards */
+.card {
+
+  background:
+  rgba(18,45,47,.85);
+
+  border:
+  2px solid #365d52;
+
+  border-radius:12px;
+
+}
+
+
+/* Pack buttons */
+#denCards .card-header {
+
+  background:
+  linear-gradient(
+  to bottom,
+  #245b5d,
+  #102f31
+  ) !important;
+
+
+  color:#fff !important;
+
+  border-radius:10px;
+
+}
+
+
+/* Buttons */
+.btn-primary,
+.btn-success,
+.btn-info {
+
+background:
+linear-gradient(
+to bottom,
+#8f2635,
+#541722
+)!important;
+
+
+border:none!important;
+
+}
+
+
+/* Wolf images */
+
+.featured-wolf img,
+.card-img-top {
+
+border-radius:12px;
+
+}
+
+
+/* Footer */
+
+#footer {
+
+background:
+rgba(8,20,22,.8);
+
 }
