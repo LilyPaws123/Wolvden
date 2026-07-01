@@ -1,10 +1,17 @@
-/* Crimson Moon Tails - Base Theme */
+/* Crimson Moon Tails - First Wolvden Theme Test */
 
-/* Main page background */
+
+/* Page background */
 body {
-    background-color: #111415;
-    color: #e8ece8;
+    background-color: #101718;
 }
+
+
+/* Main text */
+body, p {
+    color: #d8ddd8;
+}
+
 
 /* Links */
 a {
@@ -15,15 +22,19 @@ a:hover {
     color: #d8ddd8;
 }
 
-/* Main content boxes */
-.container,
-.panel,
-.wolf-box,
-.box {
+
+/* Tables - Wolvden uses many tables for layouts */
+table {
     background-color: #183638;
-    border: 2px solid #8c1c2c;
-    border-radius: 15px;
+    border-color: #8c1c2c;
 }
+
+
+/* Table cells */
+td {
+    border-color: #24484a;
+}
+
 
 /* Headers */
 h1, h2, h3 {
@@ -31,16 +42,19 @@ h1, h2, h3 {
     text-shadow: 0 0 8px #8c1c2c;
 }
 
+
 /* Buttons */
 button,
-.btn {
+input[type="submit"] {
     background-color: #183638;
     color: #e8ece8;
     border: 2px solid #8c1c2c;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
+
+/* Buttons hover */
 button:hover,
-.btn:hover {
+input[type="submit"]:hover {
     background-color: #24382f;
 }
