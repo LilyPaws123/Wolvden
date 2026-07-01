@@ -1,20 +1,18 @@
-/* Crimson Moon Tails cave test */
+/* Crimson Moon Tails - Cave Cards */
 
-table.table.table-striped {
+table.table.table-striped[data-cave-key] {
     background-color: #183638 !important;
     border: 3px solid #8c1c2c !important;
     border-radius: 15px !important;
-    color: #e8ece8 !important;
+    overflow: hidden !important;
 }
 
-
-table.table.table-striped td {
+table.table.table-striped[data-cave-key] td {
     background-color: #183638 !important;
-    border-color: #8c1c2c !important;
     color: #e8ece8 !important;
+    border-color: #8c1c2c !important;
 }
 
-
-table.table.table-striped a {
+table.table.table-striped[data-cave-key] a {
     color: #d8ddd8 !important;
 }
