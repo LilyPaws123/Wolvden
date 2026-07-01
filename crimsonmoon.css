@@ -1,27 +1,4 @@
-body {
-    background-color: #101718 !important;
-    color: #e8ece8 !important;
-}
-
-
-/* Cave card area */
 #denCards {
-    background-color: #111415 !important;
-    padding: 15px;
-    border-radius: 15px;
-}
-
-
-/* Individual cave cards inside the area */
-#denCards .top {
-    background-color: #183638 !important;
-    border: 2px solid #8c1c2c !important;
-    border-radius: 12px;
-    color: #e8ece8 !important;
-}
-
-
-/* Cave names */
-#denCards .floatright {
-    color: #d8ddd8 !important;
+    background: red !important;
+    border: 10px solid yellow !important;
 }
