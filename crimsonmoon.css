@@ -1,4 +1,20 @@
-#denCards {
-    background: red !important;
-    border: 10px solid yellow !important;
+/* Crimson Moon Tails cave test */
+
+table.table.table-striped {
+    background-color: #183638 !important;
+    border: 3px solid #8c1c2c !important;
+    border-radius: 15px !important;
+    color: #e8ece8 !important;
+}
+
+
+table.table.table-striped td {
+    background-color: #183638 !important;
+    border-color: #8c1c2c !important;
+    color: #e8ece8 !important;
+}
+
+
+table.table.table-striped a {
+    color: #d8ddd8 !important;
 }
