@@ -1,18 +1,4 @@
-/* Crimson Moon Tails - Cave Cards */
-
-table.table.table-striped[data-cave-key] {
-    background-color: #183638 !important;
-    border: 3px solid #8c1c2c !important;
-    border-radius: 15px !important;
-    overflow: hidden !important;
-}
-
-table.table.table-striped[data-cave-key] td {
-    background-color: #183638 !important;
-    color: #e8ece8 !important;
-    border-color: #8c1c2c !important;
-}
-
-table.table.table-striped[data-cave-key] a {
-    color: #d8ddd8 !important;
+* {
+    background: red !important;
+    color: white !important;
 }
