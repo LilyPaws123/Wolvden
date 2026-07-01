@@ -1,118 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Galdeano&display=swap');
 
-/* =========================
-   CRIMSON MOON TAILS THEME
-   ========================= */
+/* ==========================
+   CRIMSON MOON TAILS
+   Custom Wolvden CSS
+   ========================== */
 
 
-/* Background */
+/* Main background */
 body {
   background:
-  linear-gradient(rgba(8,20,22,.55), rgba(8,20,22,.85)),
+  linear-gradient(rgba(5,18,20,.55), rgba(5,18,20,.85)),
   url(https://images.unsplash.com/photo-1511497584788-876760111969);
+
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover !important;
   background-repeat: no-repeat;
 }
 
 
-/* Main font + text */
+/* Font + default text */
 * {
   font-family: "Galdeano", sans-serif;
-  color: #d8dddd;
+  color: #d9dddd;
 }
 
 
 /* Links */
 a {
-  color: #c84b55;
+  color: #c84b55 !important;
   font-weight: bold;
 }
 
 a:hover {
-  color: #e8a0a5;
+  color: #f0a0a6 !important;
 }
 
 
 /* Header */
 #header .navbar-main {
-  background: transparent;
+  background: transparent !important;
 }
 
 #header .navbar-main .nav-link {
-  color: #d8dddd !important;
-  font-size: 22px;
+  color: #ffffff !important;
 }
 
 
 /* Breadcrumb */
 #header .breadcrumb-nav {
-  background: rgba(12,40,42,.75) !important;
+
+  background:
+  rgba(20,55,58,.75) !important;
+
 }
 
 
-/* Main panels */
+/* Main page areas */
 #main,
 #sidebar {
 
   background:
-  rgba(10,25,27,.75) !important;
+  rgba(7,25,27,.78) !important;
 
   border-radius: 12px;
+
 }
 
 
-/* Tables = caves */
+/* ==========================
+   CAVES
+   ========================== */
+
+
 .table {
 
   background:
-  rgba(18,45,47,.85);
+  rgba(15,40,42,.88) !important;
 
-  border-radius: 12px;
-  border: 2px solid #8f2635;
+  border:
+  2px solid #8f2635 !important;
+
+  border-radius: 12px !important;
+
 }
 
 
-/* Cave headers */
 .table th {
 
   background:
   linear-gradient(
-    to bottom,
-    #8f2635,
-    #541722
+  to bottom,
+  #8f2635,
+  #551923
   ) !important;
 
-  color:white !important;
+  color:#ffffff !important;
 
-  border-radius:10px;
+  border:none !important;
+
 }
 
 
-/* Cave text */
 .table td {
 
   background:
-  rgba(10,25,27,.7);
+  rgba(10,30,32,.85) !important;
+
+  color:#d9dddd !important;
 
 }
 
 
-/* Cards */
-.card {
+.table-striped tbody tr:nth-of-type(odd) {
 
   background:
-  rgba(18,45,47,.85);
-
-  border:
-  2px solid #365d52;
-
-  border-radius:12px;
+  rgba(25,65,66,.35) !important;
 
 }
 
 
-/* Pack buttons */
+/* ==========================
+   DEN BUTTONS
+   ========================== */
+
+
+#denCards {
+
+  padding-top:20px !important;
+
+}
+
+
+#denCards .card {
+
+  background:
+  rgba(15,40,42,.9) !important;
+
+  border:
+  2px solid #365d52 !important;
+
+  border-radius:12px !important;
+
+}
+
+
 #denCards .card-header {
 
   background:
@@ -123,27 +154,43 @@ a:hover {
   ) !important;
 
 
-  color:#fff !important;
+  color:white !important;
 
-  border-radius:10px;
+  border-radius:10px !important;
 
 }
 
 
-/* Buttons */
-.btn-primary,
-.btn-success,
-.btn-info {
-
-background:
-linear-gradient(
-to bottom,
-#8f2635,
-#541722
-)!important;
+/* ==========================
+   CARDS / WOLF PANELS
+   ========================== */
 
 
-border:none!important;
+.card {
+
+  background:
+  rgba(15,40,42,.85) !important;
+
+  border:
+  2px solid #365d52 !important;
+
+  border-radius:12px !important;
+
+}
+
+
+.bg-light {
+
+  background:
+  transparent !important;
+
+}
+
+
+.bg-dark {
+
+  background:
+  transparent !important;
 
 }
 
@@ -153,16 +200,92 @@ border:none!important;
 .featured-wolf img,
 .card-img-top {
 
-border-radius:12px;
+  border-radius:12px !important;
 
 }
 
 
-/* Footer */
+/* ==========================
+   BUTTONS
+   ========================== */
 
-#footer {
 
-background:
-rgba(8,20,22,.8);
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+
+  background:
+  linear-gradient(
+  to bottom,
+  #8f2635,
+  #551923
+  ) !important;
+
+
+  border:none !important;
+
+  color:white !important;
+
+  border-radius:10px !important;
+
+}
+
+
+/* ==========================
+   FORMS
+   ========================== */
+
+
+.form-control {
+
+  background:
+  rgba(10,30,32,.9) !important;
+
+  color:white !important;
+
+  border:
+  1px solid #365d52 !important;
+
+}
+
+
+/* ==========================
+   CHAT
+   ========================== */
+
+
+.s-chat-message:nth-child(odd) {
+
+  background:
+  rgba(15,40,42,.85) !important;
+
+}
+
+
+.s-chat-message:nth-child(even) {
+
+  background:
+  rgba(7,25,27,.85) !important;
+
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+
+  width:10px;
+
+}
+
+
+::-webkit-scrollbar-thumb {
+
+  background:
+  #8f2635 !important;
+
+  border-radius:10px;
 
 }
