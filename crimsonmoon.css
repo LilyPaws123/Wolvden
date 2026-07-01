@@ -1,0 +1,46 @@
+/* Crimson Moon Tails - Base Theme */
+
+/* Main page background */
+body {
+    background-color: #111415;
+    color: #e8ece8;
+}
+
+/* Links */
+a {
+    color: #b52a3a;
+}
+
+a:hover {
+    color: #d8ddd8;
+}
+
+/* Main content boxes */
+.container,
+.panel,
+.wolf-box,
+.box {
+    background-color: #183638;
+    border: 2px solid #8c1c2c;
+    border-radius: 15px;
+}
+
+/* Headers */
+h1, h2, h3 {
+    color: #d8ddd8;
+    text-shadow: 0 0 8px #8c1c2c;
+}
+
+/* Buttons */
+button,
+.btn {
+    background-color: #183638;
+    color: #e8ece8;
+    border: 2px solid #8c1c2c;
+    border-radius: 10px;
+}
+
+button:hover,
+.btn:hover {
+    background-color: #24382f;
+}
